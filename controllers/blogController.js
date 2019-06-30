@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 //importing shortid module to shorten id creating by mongodb for each recoreds/blogs
 const shortid = require('shortid');
 //importing response library from libs folder to generate response after every request
-const response = require('./../libs/responseLib');
+const response = require('../libs/responseLib');
 //importing logger library from libs folder to log errors in the console if there is any response errors
-const logger = require('./../libs/loggerLib');
+const logger = require('../libs/loggerLib');
 //importing check library from lib folder to check if the parameter passed as a request is empty or not
-const check = require('./../libs/checkLib') ;
+const check = require('../libs/checkLib') ;
 
 //importing model schema
 const BlogModel = mongoose.model('Blog');

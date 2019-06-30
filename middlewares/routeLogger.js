@@ -1,6 +1,6 @@
-const appConfig = require('./../config/appconfig');
+const appConfig = require('../config/appConfig')
 
-const time = require('./../libs/timeLib')
+const time = require('../libs/timeLib')
 
 let requestIpLogger = (req,res,next)=>{
 
