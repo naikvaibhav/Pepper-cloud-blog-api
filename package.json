@@ -1,0 +1,21 @@
+{
+  "name": "peper-cloud-blog-api",
+  "version": "1.0.0",
+  "description": "An api for pepper cloud blog application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaibhav naik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25",
+    "mongoose": "^5.6.2",
+    "pino": "^5.12.6",
+    "shortid": "^2.2.14"
+  }
+}
