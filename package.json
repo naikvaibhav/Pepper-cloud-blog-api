@@ -9,9 +9,9 @@
   "author": "vaibhav naik",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
     "mongoose": "^5.6.2",
